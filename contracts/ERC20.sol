@@ -55,12 +55,14 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         _name = name_;
         _symbol = symbol_;
         _decimals = decimals_;
-        _mint(msg.sender, total_supply_);
     }
 
     /**
      * @dev Returns the name of the token.
      */
+
+
+     }
     function name() public view virtual override returns (string memory) {
         return _name;
     }
