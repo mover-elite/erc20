@@ -1,3 +1,4 @@
 build/
 report/
-
+.mypy_cache/
+.vscode/

@@ -1,4 +1,4 @@
-from brownie import accounts, ERC20
+from brownie import accounts, ERC20 #type: ignore
 
 
 
